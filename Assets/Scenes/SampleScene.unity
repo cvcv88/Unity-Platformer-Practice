@@ -490,9 +490,11 @@ MonoBehaviour:
   maxXSpeed: 5
   maxYSpeed: 20
   jumpSpeed: 10
+  groundCheckLayer:
+    serializedVersion: 2
+    m_Bits: 193
   layerMask:
     serializedVersion: 2
-    m_Bits: 64
 --- !u!95 &124362886
 Animator:
   serializedVersion: 5
@@ -664,7 +666,6 @@ GameObject:
   - component: {fileID: 415606665}
   - component: {fileID: 415606664}
   m_Layer: 7
-  m_Name: big-crate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2376,7 +2377,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa42e03b79ec17b4f91efb2be53c4629, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
   findRange: 0
   playerTransform: {fileID: 0}
   startPos: {x: 0, y: 0, z: 0}
@@ -3244,7 +3244,6 @@ Tilemap:
       - {fileID: 21300000, guid: 273ba8fade558457eb836eefe69bba7f, type: 3}
       - {fileID: 21300000, guid: 4f35b6058a719446ba48dc4dc2704635, type: 3}
       - {fileID: 21300000, guid: 056b6a3f6e14d4af2a7d641c4dd44e79, type: 3}
-      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
